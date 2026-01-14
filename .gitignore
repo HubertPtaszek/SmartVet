@@ -1,0 +1,25 @@
+# --- System & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Environment & Secrets (CRITICAL) ---
+.env
+.env.local
+.env.*
+*.pem
+*.key
+secrets.json
+config.js
+config.py
+
+# --- Dependencies & Build ---
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+dist/
+build/
+*.log
